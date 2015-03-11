@@ -3,7 +3,7 @@
  */
 // ==UserScript==
 // @name           Cross-pod Links (for Diaspora)
-// @version        0.1
+// @version        0.1.1
 // @author         maymay <meitar@joindiaspora.com>
 // @namespace      net.maymay.diaspora.cross
 // @updateURL      https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js
@@ -167,8 +167,17 @@ D_PERMALINKER.createSimplePopUp = function (node) {
     node.parentNode.appendChild(div);
 };
 
+D_PERMALINKER.isPermalink = function (node) {
+    var is_permalink = true;
+    if (jQuery(node).hasClass('toggle_post_comments')) {
+        is_permalink = false;
+    }
+    return is_permalink;
+};
+
 // This is the main() function, executed on page load.
 D_PERMALINKER.main = function (anchor_node) {
+    if (!D_PERMALINKER.isPermalink(anchor_node)) { return; }
     D_PERMALINKER.updatePermalink(anchor_node);
 
     // attach a click listener on this permalink anchor element
