@@ -3,7 +3,7 @@
  */
 // ==UserScript==
 // @name           Cross-pod Links (for Diaspora)
-// @version        0.1.1
+// @version        0.1.2
 // @author         maymay <meitar@joindiaspora.com>
 // @namespace      net.maymay.diaspora.cross
 // @updateURL      https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js
@@ -56,7 +56,7 @@ GM_addStyle('\
 ');
 D_PERMALINKER.init = function () {
     // Set up a Mutation Observer to listen for new stream contents.
-    var MutationObserver = unsafeWindow.MutationObserver || unsafeWindow.WebKitMutationObserver;
+    var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
     var observer = new MutationObserver(function (mutations) {
         D_PERMALINKER.log('Observing mutations:');
         mutations.forEach(function (mutation) {
