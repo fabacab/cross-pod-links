@@ -3,7 +3,7 @@
  */
 // ==UserScript==
 // @name           Cross-pod Links (for Diaspora)
-// @version        0.1.2
+// @version        0.1.3
 // @author         maymay <meitar@joindiaspora.com>
 // @namespace      net.maymay.diaspora.cross
 // @updateURL      https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js
@@ -97,7 +97,6 @@ D_PERMALINKER.setPermalinkGUID = function (anchor_node, guid) {
 };
 
 D_PERMALINKER.getCrossPodUrl = function (anchor_node) {
-    //https://joindiaspora.com/posts/1521e8a0a9bd0132a7710e379eef12a8#81d30200a9bf0132a7710e379eef12a8
     var new_url = anchor_node.pathname;
     if (anchor_node.search) {
         new_url += anchor_node.search;
@@ -170,6 +169,8 @@ D_PERMALINKER.createSimplePopUp = function (node) {
 D_PERMALINKER.isPermalink = function (node) {
     var is_permalink = true;
     if (jQuery(node).hasClass('toggle_post_comments')) {
+        is_permalink = false;
+    } else if (jQuery(node).hasClass('comment_delete')) {
         is_permalink = false;
     }
     return is_permalink;

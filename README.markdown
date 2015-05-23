@@ -34,6 +34,10 @@ Click the "Copy as Markdown" button to copy the post title and cross-pod link as
 
 ## Change log
 
+* Version 0.1.3:
+    * Bugfix: Deleting a comment no is no longer obscured by the cross-pod link pop-up.
+* Version 0.1.2:
+    * Compatible with Greasemonkey running in Firefox.
 * Version 0.1.1:
     * Bugfix: "Show X more comments" links are no longer incorrectly recognized as post or comment permalinks.
 * Version 0.1:
