@@ -34,6 +34,8 @@ Click the "Copy as Markdown" button to copy the post title and cross-pod link as
 
 ## Change log
 
+* Version 0.1.4:
+    * Bugfix: Resharing, liking, or reporting a post on a single post page is no longer obscured by the cross-pod link pop-up.
 * Version 0.1.3:
     * Bugfix: Deleting a comment no is no longer obscured by the cross-pod link pop-up.
 * Version 0.1.2:
