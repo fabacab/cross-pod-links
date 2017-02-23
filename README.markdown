@@ -16,7 +16,7 @@ If you use the [Google Chrome](https://chrome.google.com/) web browser (version 
 
 ## Installing
 
-To install this user script, go to [github.com/meitar/cross-pod-links](https://github.com/cross-pod-links/) and click the "[Download and install](https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js)" near the middle of the page:
+To install this user script, go to [github.com/meitar/cross-pod-links](https://github.com/meitar/cross-pod-links/) and click the "[Download and install](https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js)" near the middle of the page:
 
 > [Download and install Cross-pod Links (for Diaspora)](https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js)
 
