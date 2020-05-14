@@ -4,9 +4,8 @@
 // ==UserScript==
 // @name           Cross-pod Links (for Diaspora)
 // @version        0.1.6
-// @author         maymay <meitar@joindiaspora.com>
 // @namespace      net.maymay.diaspora.cross
-// @updateURL      https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js
+// @updateURL      https://github.com/fabacab/cross-pod-links/raw/master/cross-pod-links.user.js
 // @description    Click a Diaspora post's permalink to copy a server-relative URL to your clipboard. Makes it easy to write links in your Diaspora posts that will work across pods when the people you are sharing with are on a different pod than you.
 // @require        https://code.jquery.com/jquery-1.10.2.min.js
 // TODO: Can the include be restricted based on a known podlist?

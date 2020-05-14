@@ -16,9 +16,9 @@ If you use the [Google Chrome](https://chrome.google.com/) web browser (version 
 
 ## Installing
 
-To install this user script, go to [github.com/meitar/cross-pod-links](https://github.com/meitar/cross-pod-links/) and click the "[Download and install](https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js)" near the middle of the page:
+To install this user script, go to [github.com/fabacab/cross-pod-links](https://github.com/fabacab/cross-pod-links/) and click the "[Download and install](https://github.com/fabacab/cross-pod-links/raw/master/cross-pod-links.user.js)" near the middle of the page:
 
-> [Download and install Cross-pod Links (for Diaspora)](https://github.com/meitar/cross-pod-links/raw/master/cross-pod-links.user.js)
+> [Download and install Cross-pod Links (for Diaspora)](https://github.com/fabacab/cross-pod-links/raw/master/cross-pod-links.user.js)
 
 If you enjoy this script, please consider [donating](http://maybemaimed.com/cyberbusking/) for your use of the script. :) Your donations are sincerely appreciated!
 
@@ -30,7 +30,7 @@ Click the "Copy as Markdown" button to copy the post title and cross-pod link as
 
 ## Contributing
 
-[Patches welcome](https://github.com/meitar/cross-pod-links/issues)!
+[Patches welcome](https://github.com/fabacab/cross-pod-links/issues)!
 
 ## Change log
 
